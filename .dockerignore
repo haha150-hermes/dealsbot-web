@@ -1,0 +1,8 @@
+**/node_modules
+**/build
+.git
+.gitignore
+*.pem
+*.db
+*.sqlite
+*.sqlite3

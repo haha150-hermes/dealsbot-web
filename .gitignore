@@ -1,0 +1,7 @@
+*.pem
+*.db
+*.sqlite
+*.sqlite3
+__pycache__/
+*.py[cod]
+frontend/build/
