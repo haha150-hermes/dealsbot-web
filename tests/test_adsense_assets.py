@@ -22,6 +22,10 @@ class AdSenseAssetTests(unittest.TestCase):
             index,
         )
 
+    def test_nginx_config_has_no_unsupported_http_handshake_directive(self):
+        nginx_config = (ROOT / "nginx.conf").read_text()
+        self.assertNotIn("ssl_handshake_timeout", nginx_config)
+
 
 if __name__ == "__main__":
     unittest.main()
