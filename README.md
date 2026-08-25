@@ -14,6 +14,14 @@ Dealsbot is a Swedish content-first buying-guide and deals site. An event-driven
 - The Associates tag is supplied with `AMAZON_ASSOCIATE_TAG` and replaces any existing `tag` query parameter.
 - nginx handles React deep links with an `index.html` fallback and serves TLS 1.2 or newer.
 
+## AdSense integration
+
+- Auto ads are enabled with the publisher client `ca-pub-1526341836163709` in `frontend/public/index.html`.
+- The authorized seller record is published at `/ads.txt` from `frontend/public/ads.txt`.
+- Ad placement and personalization settings remain controlled in the AdSense account; the application does not place ads inside affiliate call-to-action buttons.
+- For visitors in Sweden and other EEA regions, publish a Google-certified consent message in AdSense before serving personalized ads.
+- The production certificate covers both `symeri.se` and `deals.symeri.se`; the same application and `ads.txt` file are served for both hostnames.
+
 ## Development and tests
 
 ```bash
