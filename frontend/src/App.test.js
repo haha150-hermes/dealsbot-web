@@ -34,3 +34,16 @@ test('renders deals returned by the read-only API', async () => {
   expect(screen.getByText('Tidigare angivet pris: 2 051 kr')).toBeInTheDocument();
   expect(global.fetch).toHaveBeenCalledWith('/api/deals?limit=50', expect.any(Object));
 });
+
+test('renders the AdSense and CMP disclosure on the privacy page', () => {
+  window.history.pushState({}, '', '/integritet');
+
+  render(<App />);
+
+  expect(screen.getByRole('heading', { name: 'Integritetspolicy' })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Google AdSense och samtycke' })).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /Googles information om annonser och integritet/ })).toHaveAttribute(
+    'href',
+    'https://policies.google.com/technologies/ads?hl=sv',
+  );
+});
