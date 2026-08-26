@@ -29,6 +29,8 @@ FROM nginx:1.27-alpine AS web
 
 COPY nginx.conf /etc/nginx/nginx.conf
 COPY --from=frontend-build /src/frontend/build /usr/share/nginx/html
+RUN chmod 644 /usr/share/nginx/html/ads.txt
+
 EXPOSE 8443
 HEALTHCHECK --interval=30s --timeout=5s --start-period=10s --retries=3 \
   CMD ["wget", "--no-check-certificate", "--quiet", "--spider", "https://127.0.0.1:8443/healthz"]
