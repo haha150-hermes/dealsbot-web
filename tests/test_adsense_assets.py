@@ -26,6 +26,15 @@ class AdSenseAssetTests(unittest.TestCase):
         nginx_config = (ROOT / "nginx.conf").read_text()
         self.assertNotIn("ssl_handshake_timeout", nginx_config)
 
+    def test_nginx_redirects_http_to_https_for_ads_txt_crawlers(self):
+        nginx_config = (ROOT / "nginx.conf").read_text()
+        self.assertIn("listen 80;", nginx_config)
+        self.assertIn("return 301 https://$host$request_uri;", nginx_config)
+
+    def test_compose_publishes_http_redirect_port(self):
+        compose = (ROOT / "compose.yml").read_text()
+        self.assertIn('      - "80:80"', compose)
+
 
 if __name__ == "__main__":
     unittest.main()
