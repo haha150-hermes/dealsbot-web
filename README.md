@@ -12,7 +12,7 @@ Dealsbot is a Swedish content-first buying-guide and deals site. An event-driven
 - Both `https://amazon.se/...` and `https://www.amazon.se/...` are accepted; other hosts and non-HTTPS URLs are rejected.
 - SQLite is opened with `mode=ro` and `PRAGMA query_only=ON`, and SQL enforces `posted = 1`.
 - The Associates tag is supplied with `AMAZON_ASSOCIATE_TAG` and replaces any existing `tag` query parameter.
-- nginx handles React deep links with an `index.html` fallback and serves TLS 1.2 or newer.
+- nginx handles React deep links with an `index.html` fallback and serves TLS 1.2 or newer. The production frontend build also pre-renders the homepage, guide index, every guide URL, and the policy/contact pages as crawlable HTML before nginx serves them.
 
 ## AdSense integration
 
@@ -20,6 +20,7 @@ Dealsbot is a Swedish content-first buying-guide and deals site. An event-driven
 - The authorized seller record is published at `/ads.txt` from `frontend/public/ads.txt`.
 - Ad placement and personalization settings remain controlled in the AdSense account; the application does not place ads inside affiliate call-to-action buttons.
 - For visitors in Sweden and other EEA regions, publish a Google-certified consent message in AdSense before serving personalized ads.
+- `npm run build` runs `frontend/scripts/prerender-guides.js`, which generates unique titles, descriptions, canonical URLs, article metadata, JSON-LD, and `sitemap.xml` for the public content routes.
 - The production certificate covers both `symeri.se` and `deals.symeri.se`; the same application and `ads.txt` file are served for both hostnames.
 
 ## Development and tests
@@ -31,6 +32,8 @@ npm ci
 CI=true npm test -- --watchAll=false --runInBand
 npm run build
 ```
+
+The build output is not only a client-side shell: `build/guider/<slug>/index.html` contains the full guide body so crawlers and users without JavaScript can read the content. The generated `build/sitemap.xml` is advertised by `frontend/public/robots.txt`.
 
 The frontend expects `/api/deals` on the same origin. For local frontend-only development, proxy that route to a running backend.
 
@@ -82,8 +85,8 @@ sudo docker start pensive_aryabhata
 
 ## Content and Associates review notes
 
-- Keep at least ten public, original guides available during review.
-- Refresh guide dates and editorial content regularly.
+- Keep at least ten public, original guides available during review. Each guide should explain concrete selection criteria, trade-offs, limitations, and checks a reader can perform before buying.
+- Refresh guide dates only when the editorial content has actually been reviewed; do not change dates just to make pages appear new.
 - Keep the affiliate disclosure visible and unambiguous.
 - Verify that `AMAZON_ASSOCIATE_TAG` belongs to the current application; rejected account tags should not be reused.
 - Product prices and availability come from the local feed and must still be verified at Amazon before purchase.
