@@ -47,3 +47,14 @@ test('renders the AdSense and CMP disclosure on the privacy page', () => {
     'https://policies.google.com/technologies/ads?hl=sv',
   );
 });
+
+test('renders the expanded guide content and review metadata', () => {
+  window.history.pushState({}, '', '/guider/sa-valjer-du-en-bra-powerbank');
+
+  render(<App />);
+
+  expect(screen.getByRole('heading', { name: 'Så väljer du en bra powerbank utan att köpa fel' })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Räkna på effekt och laddtid' })).toBeInTheDocument();
+  expect(screen.getByText(/Av Dealsbot-redaktionen/)).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Så använder vi guiden' })).toBeInTheDocument();
+});

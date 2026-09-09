@@ -5,6 +5,7 @@ COPY frontend/package.json frontend/package-lock.json ./
 RUN npm ci
 COPY frontend/public ./public
 COPY frontend/src ./src
+COPY frontend/scripts ./scripts
 RUN npm run build
 
 FROM python:3.12-slim AS api
