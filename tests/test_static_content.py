@@ -12,15 +12,18 @@ ARTICLE_TITLE = "Så väljer du en bra powerbank utan att köpa fel"
 class StaticContentTests(unittest.TestCase):
     def test_articles_have_editorial_metadata_and_substantive_body(self):
         articles = json.loads((ROOT / "frontend" / "src" / "articles.json").read_text())
-        self.assertEqual(len(articles), 10)
+        self.assertGreaterEqual(len(articles), 10)
         self.assertEqual(len({article["slug"] for article in articles}), len(articles))
         for article in articles:
-            self.assertEqual(article["author"], "Dealsbot-redaktionen")
-            self.assertEqual(article["reviewedDate"], article["date"])
+            self.assertEqual(article["contentType"], "research-guide")
+            self.assertGreaterEqual(len(article["sources"]), 2)
+            self.assertGreaterEqual(len(article["keyTakeaways"]), 4)
+            self.assertGreaterEqual(len(article["checklist"]), 4)
+            self.assertTrue(article["reviewNote"])
             body_words = len(
                 " ".join(text for section in article["sections"] for text in section[1]).split()
             )
-            self.assertGreaterEqual(body_words, 200, article["slug"])
+            self.assertGreaterEqual(body_words, 650, article["slug"])
 
     def test_build_contains_crawlable_homepage_and_policy_pages(self):
         homepage = (BUILD / "index.html").read_text()
@@ -54,6 +57,10 @@ class StaticContentTests(unittest.TestCase):
         )
         self.assertIn('type="application/ld+json"', html)
         self.assertIn("Börja med användningen", html)
+        self.assertIn("Snabb sammanfattning", html)
+        self.assertIn("Kontroll före köp", html)
+        self.assertIn("Källor och vidare läsning", html)
+        self.assertIn("Transportstyrelsen: batterier", html)
         self.assertNotIn('<div id="root"></div>', html)
 
     def test_build_contains_sitemap_with_guide_urls(self):
@@ -65,6 +72,17 @@ class StaticContentTests(unittest.TestCase):
             f"https://symeri.se/guider/{ARTICLE_SLUG}/",
             content,
         )
+        self.assertIn("https://symeri.se/verktyg/", content)
+
+    def test_build_contains_tools_page_with_non_affiliate_utility(self):
+        tools = BUILD / "verktyg" / "index.html"
+        self.assertTrue(tools.is_file(), "production build must prerender /verktyg/")
+        html = tools.read_text()
+        self.assertIn("<h1>Verktyg för smartare köp</h1>", html)
+        self.assertIn("Powerbankkalkylator", html)
+        self.assertIn("Jämförelsemall", html)
+        self.assertIn("utan affiliatelänkar", html)
+        self.assertNotIn('<div id="root"></div>', html)
 
     def test_container_build_copies_the_prerender_script(self):
         dockerfile = (ROOT / "Dockerfile").read_text()
