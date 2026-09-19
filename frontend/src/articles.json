@@ -4,7 +4,7 @@
     "category": "Teknik",
     "title": "Så väljer du en bra powerbank utan att köpa fel",
     "excerpt": "Kapacitet är bara början. Här går vi igenom USB-C, laddningseffekt, storlek och vad siffrorna faktiskt betyder.",
-    "readTime": "4 min läsning",
+    "readTime": "8 min läsning",
     "date": "2026-07-18",
     "sections": [
       [
@@ -34,17 +34,59 @@
       [
         "Kontroll före köp",
         "Skriv ner vilka enheter som ska laddas, vilka kablar de använder och hur ofta du har tillgång till vägguttag. Kontrollera sedan kapacitet, uteffekt, portarnas funktion, laddtid, skyddsfunktioner, garanti och vikt i samma jämförelse. Det gör det lättare att välja en modell som passar ditt användningsmönster i stället för den med högst marknadsförd kapacitet."
+      ],
+      [
+        "Wh, mAh och uteffekt är olika frågor",
+        "mAh beskriver laddningsmängd vid en viss nominell spänning, medan Wh tar hänsyn till spänningen. När energin ska gå från battericeller till en telefon eller dator uppstår dessutom förluster i elektronik, kabel och enhet. Därför är ett påstående som “tio laddningar” bara meningsfullt om det anger vilken enhet, temperatur och laddnivå som avses. En rimlig jämförelse börjar med den enhet du vill ladda, omvandlar uppgifterna till samma mått och lämnar marginal för förluster. Högre kapacitet kan också betyda mer vikt, längre egen laddtid och sämre bärbarhet."
+      ],
+      [
+        "Så granskar du en specifikation",
+        "Läs produktbladet i ordningen kapacitet, portar, uteffekt och laddprotokoll. Kontrollera om USB-C är både ingång och utgång, om effekten gäller en port eller delas mellan flera och om laddaren du redan äger kan leverera rätt nivå. En powerbank som kan ge hög effekt men laddas långsamt kan vara opraktisk i vardagen. Notera också om tillverkaren anger skydd mot överström, övertemperatur och kortslutning. Sådana ord är inte ett oberoende säkerhetstest, men avsaknad av tydlig information är en anledning att leta efter en annan modell eller be säljaren om dokumentation."
+      ],
+      [
+        "Resa och säkerhet kräver en separat kontroll",
+        "Transportstyrelsens regler är inte samma sak som en produkts marknadsföring. Inför en flygresa behöver du kontrollera batteriets Wh, om det ska ligga i handbagage och vad det aktuella flygbolaget tillåter. Skadade, svullna eller onormalt varma batterier ska inte användas eller packas. Hemma bör powerbanken laddas på en plats där värme kan avledas och där kabel eller apparat inte täcks över. Den här guiden ersätter inte transportörens regler eller tillverkarens säkerhetsanvisningar; den hjälper dig att veta vilka frågor som måste besvaras."
+      ],
+      [
+        "Gör beslutet mätbart före köp",
+        "Skriv en liten matris med kolumnerna enhet, önskad laddning, port, effekt, vikt, pris och begränsning. Markera varje uppgift som verifierad, oklar eller beroende av ett tillbehör. Om en modell bara vinner på ett stort mAh-tal men förlorar på vikt, laddtid och portkompatibilitet är det ett tecken på att siffran inte beskriver ditt verkliga behov. Spara produktbladet och datumet du kontrollerade det, eftersom modeller och specifikationer kan ändras. På så sätt blir jämförelsen återanvändbar när priserna i fyndflödet uppdateras."
       ]
     ],
     "author": "Dealsbot-redaktionen",
-    "reviewedDate": "2026-07-18"
+    "reviewedDate": "2026-09-19",
+    "contentType": "research-guide",
+    "editorialMethod": "Källbaserad research. Dealsbot påstår inte egen produkttestning om det inte uttryckligen anges.",
+    "reviewNote": "Guiden granskades 2026-09-19 mot USB-IF:s information om USB Power Delivery och Transportstyrelsens regler för batterier vid flyg. Texten beskriver research och beräkningar; den påstår inte att redaktionen har testat en viss powerbank.",
+    "keyTakeaways": [
+      "Matcha uteffekt och USB Power Delivery med enheten, inte bara med mAh.",
+      "Jämför Wh, vikt, portar och laddtid när du bedömer faktisk nytta.",
+      "Kontrollera batterireglerna hos flygbolaget och Transportstyrelsen före resa.",
+      "Behandla säkerhetsfunktioner, garanti och kabelkompatibilitet som egna kontrollpunkter."
+    ],
+    "checklist": [
+      "Skriv upp enhetens batteristorlek och önskad laddhastighet.",
+      "Kontrollera USB-C-portens in- och utgång samt stödda effektnivåer.",
+      "Jämför vikt, mått och faktisk användningstid.",
+      "Räkna på förluster i omvandlingen i stället för att lova ett visst antal laddningar.",
+      "Läs transportörens aktuella regler om litiumbatterier före flyg."
+    ],
+    "sources": [
+      {
+        "label": "Transportstyrelsen: batterier och batteridrivna produkter",
+        "url": "https://www.transportstyrelsen.se/sv/luftfart/flygresenar/bagage/vad-far-jag-ta-med-mig-ombord/batterier-och-batteridrivna-produkter/"
+      },
+      {
+        "label": "USB-IF: USB Power Delivery",
+        "url": "https://www.usb.org/usb-charger-pd"
+      }
+    ]
   },
   {
     "slug": "guide-till-ljudreducerande-horlurar",
     "category": "Teknik",
     "title": "Guide: ljudreducerande hörlurar för jobb, resa och vardag",
     "excerpt": "Aktiv brusreducering, passform och mikrofonkvalitet spelar olika stor roll beroende på hur du använder hörlurarna.",
-    "readTime": "4 min läsning",
+    "readTime": "8 min läsning",
     "date": "2026-07-12",
     "sections": [
       [
@@ -74,17 +116,63 @@
       [
         "Jämför hela användningen",
         "Läs om batteritid med och utan brusreducering, laddkontakt, reservdelar, garanti och returvillkor. Kontrollera om öronkuddar eller proppar går att byta när de är slitna. En modell med färre funktioner men bra passform, lång support och lättillgängliga reservdelar kan ge bättre värde över tid än en modell med fler funktioner som du inte använder."
+      ],
+      [
+        "Separera ljudisolering från aktiv brusreducering",
+        "En tät öronkudde eller rätt storlek på en öronpropp minskar ljud genom passiv isolering. Aktiv brusreducering använder mikrofoner och elektronik och är ofta bäst mot jämna, låga ljud. Röster, vind och plötsliga ljud kan bete sig annorlunda. En modell som känns imponerande på ett flygplan kan därför vara mindre värdefull på ett öppet kontor. Beskriv först ljudmiljön, och jämför sedan hur passform, transparensläge och vindhantering passar den miljön."
+      ],
+      [
+        "Mikrofon och anslutning behöver egna tester",
+        "För möten är det inte tillräckligt att läsa batteritid och codec. Kontrollera om mikrofonen fungerar tydligt när du rör dig, om multipoint faktiskt stöds av dina enheter och hur hörlurarna beter sig när en dator och telefon ringer samtidigt. Läs tester som beskriver samtal i buller, inte bara lyssning i tyst rum. Om en uppgift saknas ska den markeras som okänd i jämförelsen i stället för att tolkas som ett positivt resultat."
+      ],
+      [
+        "Säkert lyssnande är en del av köpbeslutet",
+        "WHO beskriver säkert lyssnande som en kombination av ljudnivå, lyssningstid och pauser. En hörlur med bra tätning kan göra att du inte behöver höja volymen lika mycket i buller, men ingen produkt gör hög volym ofarlig. Lägg därför till en praktisk fråga: kan du använda hörlurarna på låg eller måttlig nivå och ändå höra tillräckligt? Om svaret är nej passar modellen eller miljön kanske inte dina behov."
+      ],
+      [
+        "Dokumentera vad som är viktigt för dig",
+        "Skriv tre prioriteringar innan du jämför: exempelvis komfort i två timmar, tydliga samtal och stabil växling mellan laptop och telefon. Lägg därefter till två saker du kan kompromissa med, till exempel vikt eller appfunktioner. Kontrollera garanti, retur och möjlighet att köpa nya kuddar eller proppar. En högre inköpskostnad kan vara rimlig om hörlurarna används ofta, men bara om det finns en realistisk plan för passform, service och batteriets åldrande."
+      ],
+      [
+        "Gör en enkel före- och efterjämförelse",
+        "Om du kan prova hörlurarna, använd samma ljudmiljö och samma volym vid varje jämförelse. Notera om du hör tal, trafik eller tangentbord tydligare med brusreduceringen av och på, och skriv separat hur passformen känns efter en längre stund. För samtal kan du spela in en kort provanteckning med en mottagare som vet vad som jämförs, men presentera det som en lokal observation, inte som ett allmänt testresultat. Om du inte kan prova produkten bör du vara tydlig med att beslutet bygger på specifikationer, oberoende källor och returvillkor. Den skillnaden gör en köpguide mer pålitlig."
       ]
     ],
     "author": "Dealsbot-redaktionen",
-    "reviewedDate": "2026-07-12"
+    "reviewedDate": "2026-09-19",
+    "contentType": "research-guide",
+    "editorialMethod": "Källbaserad research. Dealsbot påstår inte egen produkttestning om det inte uttryckligen anges.",
+    "reviewNote": "Guiden granskades 2026-09-19 mot WHO:s information om säkert lyssnande och Konsumentverkets vägledning om fel på hörlurar och annan mobilutrustning. Den gör inga påståenden om egna ljudmätningar eller enskilda modellers prestanda.",
+    "keyTakeaways": [
+      "Brusreducering, passiv tätning och komfort löser olika problem.",
+      "Bedöm hörlurar efter din miljö: flyg, kontor, samtal eller träning.",
+      "Batteritid och codec säger inte ensamma hur mikrofon eller ljud låter.",
+      "Kontrollera retur, garanti och reservdelar innan du köper en dyr modell."
+    ],
+    "checklist": [
+      "Beskriv miljön där hörlurarna ska användas mest.",
+      "Testa eller kontrollera returvillkor för passform och tryck.",
+      "Skilj på specifikationer, oberoende testresultat och kundomdömen.",
+      "Kontrollera mikrofon, multipoint och kompatibilitet med dina enheter.",
+      "Använd volym och pauser så att lång lyssning inte blir en hälsorisk."
+    ],
+    "sources": [
+      {
+        "label": "WHO: safe listening",
+        "url": "https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-safe-listening"
+      },
+      {
+        "label": "Hallå konsument: när mobil, laddare eller hörlurar fungerar dåligt",
+        "url": "https://www.hallakonsument.se/varor-och-tjanster-process/mobiltelefonen-fungerar-daligt-eller-inte-alls/"
+      }
+    ]
   },
   {
     "slug": "checklista-for-en-ergonomisk-arbetsplats",
     "category": "Arbetsplats",
     "title": "Checklista för en mer ergonomisk arbetsplats hemma",
     "excerpt": "Små justeringar av skärm, stol, ljus och pauser kan göra större skillnad än att byta ut allt på en gång.",
-    "readTime": "4 min läsning",
+    "readTime": "8 min läsning",
     "date": "2026-07-06",
     "sections": [
       [
@@ -110,17 +198,67 @@
       [
         "Prioritera innan du handlar",
         "Börja med sådant som redan går att ändra utan kostnad: skärmens höjd, ljus, avstånd och pauser. Köp därefter det som löser ett tydligt kvarvarande problem, till exempel ett stativ, separat tangentbord eller bättre belysning. En enkel lista över problem, möjliga åtgärder och kostnad gör det lättare att undvika att köpa många prylar utan att arbetsdagen faktiskt blir bättre."
+      ],
+      [
+        "Diagnostisera innan du handlar",
+        "Skriv ner arbetsuppgiften, tiden vid skärmen och vad som faktiskt känns fel. Trötthet i ögonen kan hänga ihop med ljus och fokusavstånd, medan spända axlar kan påverkas av bordshöjd, musplacering eller att du sitter stilla länge. Ett nytt tillbehör löser inte automatiskt problemet. Ta ett foto av arbetsplatsen från sidan och framifrån, notera vad som kan justeras utan kostnad och ändra en sak i taget. Då blir det möjligt att se om en investering hjälper eller om problemet ligger någon annanstans."
+      ],
+      [
+        "Bärbar dator är en kompromiss",
+        "Den bärbara datorns skärm och tangentbord sitter ihop. Vid längre arbete kan det göra att skärmen hamnar för lågt om tangentbordet samtidigt ska ligga i en bekväm höjd. Arbetsmiljöverket beskriver därför separat utrustning som en möjlig del av en bättre arbetsplats, men den rätta lösningen beror på arbetet och personen. Mät avstånd, kontrollera anslutningar och fundera på hur ofta utrustningen flyttas innan du köper ett stativ eller en skärm."
+      ],
+      [
+        "Planera variation som en funktion",
+        "Ergonomi är inte bara möblernas form. Planera korta avbrott, växla uppgift och byt position när kroppen signalerar att du blir statisk. En höj- och sänkbar lösning är bara värdefull om den används och om skärmen, tangentbordet och kablarna följer med i ändringen. Lägg därför in användningen i jämförelsen: hur snabbt kan du ändra läge, vad händer med belysningen och kan du fortfarande arbeta utan att sträcka dig efter musen?"
+      ],
+      [
+        "När en köpguide inte räcker",
+        "En generell checklista kan hjälpa dig att upptäcka uppenbara problem, men den kan inte bedöma din kropp eller arbetsmiljö på distans. Ihållande smärta, domningar eller besvär som påverkar vardagen ska inte hanteras genom att prova allt fler produkter. Dokumentera situationen och kontakta vården, företagshälsan eller annan relevant professionell hjälp. Det är också viktigt att skilja mellan råd för hemmakontor och arbetsgivarens ansvar på en arbetsplats."
+      ],
+      [
+        "Koppla varje tillbehör till en observation",
+        "En fotpall, skärmarm eller mus ska ha en tydlig anledning att finnas i matrisen. Exempelvis kan ett stativ flytta skärmen, men det kan också skapa en ny höjdskillnad mellan skärm och tangentbord. Skriv därför “problem”, “förändring” och “hur jag märker skillnad” innan köp. Utvärdera efter några arbetsdagar utan att byta flera saker samtidigt. Om en lösning inte används, inte ryms eller gör arbetsflödet långsammare ska den inte rekommenderas bara för att den är populär. Det ger läsaren en praktisk metod i stället för en produktlista."
+      ],
+      [
+        "Skriv ner begränsningarna",
+        "Alla arbetsplatser går inte att bygga om. Skriv vad som inte kan ändras och välj sedan den minsta åtgärd som förbättrar situationen utan att skapa nya problem. Det gör rådet mer realistiskt för små rum och tillfälliga arbetsplatser."
       ]
     ],
     "author": "Dealsbot-redaktionen",
-    "reviewedDate": "2026-07-06"
+    "reviewedDate": "2026-09-19",
+    "contentType": "research-guide",
+    "editorialMethod": "Källbaserad research. Dealsbot påstår inte egen produkttestning om det inte uttryckligen anges.",
+    "reviewNote": "Guiden granskades 2026-09-19 mot Arbetsmiljöverkets vägledning om dator- och bildskärmsarbete. Den är en planeringsguide och ersätter inte individuell bedömning av ihållande smärta eller arbetsmiljöansvar.",
+    "keyTakeaways": [
+      "Börja med arbetsställning, skärm, ljus och pauser innan du köper tillbehör.",
+      "En bärbar dator kan behöva separat skärm, tangentbord och mus vid långvarigt arbete.",
+      "Variation över dagen är viktigare än att hitta en enda perfekt position.",
+      "Köp först när du kan beskriva vilket konkret problem produkten löser."
+    ],
+    "checklist": [
+      "Beskriv när och var besvären eller tröttheten uppstår.",
+      "Ställ in stol, fötter, skärm och arbetsavstånd före inköp.",
+      "Kontrollera ljus, reflexer och möjlighet till korta rörelsepauser.",
+      "Välj tillbehör efter kropp och arbetsuppgift, inte efter trend.",
+      "Sök professionell hjälp vid ihållande eller förvärrade besvär."
+    ],
+    "sources": [
+      {
+        "label": "Arbetsmiljöverket: dator- och bildskärmsarbete",
+        "url": "https://www.av.se/inomhusmiljo/dator--och-bildskarmsarbete/"
+      },
+      {
+        "label": "Arbetsmiljöverket: arbetsplatsen vid datorarbete",
+        "url": "https://www.av.se/inomhusmiljo/dator--och-bildskarmsarbete/arbetsplatsen-vid-anvandning-av-datorer-och-bildskarmar/"
+      }
+    ]
   },
   {
     "slug": "sa-valjer-du-lampor-for-smarta-hemmet",
     "category": "Hem",
     "title": "Så väljer du belysning till det smarta hemmet",
     "excerpt": "Kom igång med rätt sockel, färgtemperatur och styrning – utan att bygga ett onödigt komplicerat system.",
-    "readTime": "4 min läsning",
+    "readTime": "8 min läsning",
     "date": "2026-06-29",
     "sections": [
       [
@@ -146,17 +284,67 @@
       [
         "Bygg stegvis och säkert",
         "Börja med en plats där automatisering löser ett konkret problem. Använd starka unika lösenord, granska appens behörigheter och installera uppdateringar enligt tillverkaren. Om flera personer ska styra hemmet, bestäm vem som äger kontot och hur åtkomst tas bort. Ett litet system som är lätt att förstå och underhålla är ofta bättre än många blandade produkter."
+      ],
+      [
+        "Ljus är en funktion, inte bara en färg",
+        "Börja med vad rummet ska användas till. Läsljus, arbetsljus, orienteringsljus och stämningsljus har olika krav på mängd, riktning och bländning. Lumen är ett bättre startmått än watt när du jämför LED, men placering och armatur påverkar fortfarande hur ljuset upplevs. Mät gärna rummet och anteckna om ljuset ska komma från en punkt eller fördelas över en yta. En färgtemperatur som känns trevlig i en hall kan vara fel för koncentrerat arbete."
+      ],
+      [
+        "Kompatibilitet före appfunktioner",
+        "Kontrollera sockel, fysisk längd, spänning och om befintlig dimmer är kompatibel innan du tittar på appen. Därefter behöver du veta om lampan använder Wi-Fi, Bluetooth, Zigbee eller ett annat system, och om en hubb krävs. Fråga vad som händer vid internetavbrott och hur lampan återställs. Ett system som kräver flera konton eller en gammal hubb kan ge högre total kostnad och mer underhåll än en enklare lösning."
+      ],
+      [
+        "Integritet och underhåll är köpdata",
+        "En smart lampa kan vara en del av hemmets nätverk och använda en app med behörigheter. Läs vilken information appen behöver, hur uppdateringar levereras och hur du tar bort åtkomst om lampan säljs. Spara modellnamn och återställningsinstruktioner. Om systemet ska användas av flera personer bör ni bestämma vem som äger kontot och hur nya användare bjuds in. Det är en mer användbar jämförelse än att bara räkna antalet färger."
+      ],
+      [
+        "Bygg i ett avgränsat test",
+        "Välj ett rum och skriv ner önskat resultat innan du köper flera lampor. Dokumentera sockel, armatur, ljusflöde, styrsätt, svarstid och vad som fungerar när internet saknas. Om testet lyckas kan du använda samma matris för nästa rum. Om det misslyckas har du begränsat kostnaden och lärt dig vilken del av systemet som inte passar, i stället för att sitta med ett helt hus av inkompatibla lampor."
+      ],
+      [
+        "Separera ljus från automationsnytta",
+        "En smart funktion är bara värdefull om den används. Skriv ner vilka scener eller tider som faktiskt behövs och om en vanlig timer, fysisk dimmer eller enkel lampa redan löser behovet. För varje system bör du notera återställning, offline-beteende, firmwareuppdateringar och hur flera personer styr. Kontrollera även vad som händer om leverantörens app eller molntjänst förändras. På så sätt jämför du den långsiktiga nyttan med extra komplexitet, i stället för att låta antalet färger eller röstkommandon bli huvudargumentet."
+      ],
+      [
+        "Planera återställning",
+        "Spara instruktioner och modellnamn innan förpackningen slängs. Om lampan byter ägare ska kontot kunna kopplas bort och en ny person kunna börja utan dina uppgifter. Det är enkelt underhåll som ofta saknas i produktjämförelser."
       ]
     ],
     "author": "Dealsbot-redaktionen",
-    "reviewedDate": "2026-06-29"
+    "reviewedDate": "2026-09-19",
+    "contentType": "research-guide",
+    "editorialMethod": "Källbaserad research. Dealsbot påstår inte egen produkttestning om det inte uttryckligen anges.",
+    "reviewNote": "Guiden granskades 2026-09-19 mot Energimyndighetens information om lumen, LED-lampor och styrning. Den rekommenderar inte en specifik tillverkare och påstår inte att redaktionen har mätt ljus eller energiförbrukning.",
+    "keyTakeaways": [
+      "Lumen beskriver ljusflöde bättre än watt när du jämför LED-lampor.",
+      "Sockel, mått, dimmer och färgtemperatur måste passa armaturen och rummet.",
+      "Smart styrning kan vara direktansluten eller beroende av hubb och molntjänst.",
+      "Testa ett rum först och dokumentera kompatibilitet innan du bygger ut systemet."
+    ],
+    "checklist": [
+      "Mät armaturens sockel, fria utrymme och dimmerkompatibilitet.",
+      "Välj ljusflöde och färgtemperatur efter uppgift och rum.",
+      "Kontrollera om lampan behöver hubb, konto eller internet.",
+      "Läs energimärkning och tillverkarens skötsel- och säkerhetsinformation.",
+      "Planera hur systemet återställs och hur åtkomst tas bort."
+    ],
+    "sources": [
+      {
+        "label": "Energimyndigheten: från watt till lumen",
+        "url": "https://www.energimyndigheten.se/effektiv-energianvandning/hushall/nar-du-ska-kopa-nya-produkter/belysning/fran-watt-till-lumen/"
+      },
+      {
+        "label": "Energimyndigheten: styr din belysning",
+        "url": "https://www.energimyndigheten.se/effektiv-energianvandning/hushall/nar-du-ska-kopa-nya-produkter/belysning/styr-din-belysning/"
+      }
+    ]
   },
   {
     "slug": "airfryer-vad-ska-man-tanka-pa",
     "category": "Kök",
     "title": "Airfryer: vad ska man tänka på före köp?",
     "excerpt": "Kapacitet, rengöring och korgens utformning är ofta viktigare än maximalt watt-tal.",
-    "readTime": "4 min läsning",
+    "readTime": "8 min läsning",
     "date": "2026-06-21",
     "sections": [
       [
@@ -182,17 +370,67 @@
       [
         "Rengöring, ljud och livslängd",
         "Ta reda på om korg och insats kan rengöras enkelt och vilka delar som tål diskmaskin enligt tillverkaren. Leta efter skötselråd för beläggningen och kontrollera om reservdelar går att köpa. En apparat som är lätt att rengöra och inte stör köket för mycket blir mer användbar än en modell med fler program som du undviker att använda."
+      ],
+      [
+        "Kapacitet måste översättas till en portion",
+        "Liter på kartongen säger inte hur mycket mat som kan ligga i ett jämnt lager. En bred korg kan vara praktisk för grönsaker, medan en hög behållare kan fungera bättre för andra råvaror men kräva omgångar. Skriv ner en vanlig vardagsportion och mät hur den skulle ligga i korgen. Fundera också på om maten behöver vändas eller skakas. Ett system som tar längre tid men är lätt att rengöra kan vara mer användbart än en större apparat som står oanvänd."
+      ],
+      [
+        "Resultat går inte att lova från en specifikation",
+        "Watt, temperaturintervall och förprogrammerade lägen är inte samma sak som jämnt eller gott resultat. Mängd, fryst eller färsk råvara, temperatur före tillagning och hur ofta korgen öppnas påverkar utfallet. Läs tester som redovisar metod och mängd, och skilj på deras observationer och tillverkarens produktdata. Om du inte hittar jämförbara testförhållanden ska du beskriva osäkerheten i stället för att rangordna modeller utifrån en enda siffra."
+      ],
+      [
+        "Rengöring och säkerhet är återkommande kostnader",
+        "Kontrollera vilka delar som kan tas loss, hur beläggningen ska skötas och om reservdelar går att köpa. Läs bruksanvisningen om placering, ventilation och överhettning. Livsmedelsverkets information om material och hög temperatur är en påminnelse om att användning och underhåll spelar roll, inte bara inköpspris. Lägg in tiden för disk och förvaring i din jämförelse; en apparat som är svår att rengöra kan ge mindre värde även om den är billig."
+      ],
+      [
+        "Gör ett realistiskt användningsscenario",
+        "Välj tre rätter du faktiskt lagar och skriv ner mängd, körtid, rengöring och om maten behöver göras i flera omgångar. Använd scenariot när du jämför korgyta, reglage, ljud, sladd och förvaring. Kontrollera dessutom returvillkor om storleken är svår att bedöma på distans. Det gör guiden användbar även när priser och produktmodeller i fyndflödet förändras."
+      ],
+      [
+        "Jämför med ditt befintliga kök",
+        "En airfryer är inte automatiskt ett bättre val än ugn, stekpanna eller kastrull. Skriv ner vilka rätter du vill flytta till apparaten och hur mycket tid hela processen tar inklusive förvärmning, skakning, disk och förvaring. Kontrollera om du måste laga maten i flera omgångar och om det skapar merarbete. Om du redan har en varmluftsugn kan nyttan främst vara en mindre yta och ett enklare vardagsflöde; om du saknar ugn kan andra egenskaper väga tyngre. Den här jämförelsen minskar risken att köpa en apparat för ett användningsfall som inte återkommer."
+      ],
+      [
+        "Kontrollera retur och placering",
+        "Kontrollera innan köp hur apparaten får stå, var varm luft lämnar den och om sladden når ett lämpligt uttag. Om mått eller ljudnivå är avgörande bör du köpa från en säljare med tydligt returvillkor. Ett fynd är inte användbart om det inte får plats eller blir stående oanvänt."
       ]
     ],
     "author": "Dealsbot-redaktionen",
-    "reviewedDate": "2026-06-21"
+    "reviewedDate": "2026-09-19",
+    "contentType": "research-guide",
+    "editorialMethod": "Källbaserad research. Dealsbot påstår inte egen produkttestning om det inte uttryckligen anges.",
+    "reviewNote": "Guiden granskades 2026-09-19 mot Livsmedelsverkets information om tillagning, temperatur och köksmaterial. Den beskriver hur man jämför användning och skötsel utan att påstå egna temperatur- eller livsmedelstester.",
+    "keyTakeaways": [
+      "Korgens form och rengöring påverkar vardagen mer än högsta watt-talet.",
+      "Portionsstorlek måste jämföras med faktisk yta och hur många omgångar du accepterar.",
+      "Tillagningstid och resultat påverkas av mängd, råvara och modell.",
+      "Skötsel, ventilation och material ska vara tydliga innan köp."
+    ],
+    "checklist": [
+      "Mät bänkyta, höjd, ventilationsutrymme och uttag.",
+      "Jämför korgens användbara yta, inte bara marknadsförd literkapacitet.",
+      "Kontrollera rengöring, beläggning och diskmaskinsanvisningar.",
+      "Läs bruksanvisningens temperatur- och säkerhetsråd.",
+      "Räkna på hur ofta du faktiskt kommer använda apparaten."
+    ],
+    "sources": [
+      {
+        "label": "Livsmedelsverket: tillagning, förvaring och hållbarhet",
+        "url": "https://www.livsmedelsverket.se/livsmedel-och-innehall/tillagning-forvaring-hallbarhet/"
+      },
+      {
+        "label": "Livsmedelsverket: svarta köksredskap",
+        "url": "https://www.livsmedelsverket.se/livsmedel-och-innehall/tillagning-forvaring-hallbarhet/forpackningar/svarta-koksredskap/"
+      }
+    ]
   },
   {
     "slug": "resa-med-barn-praktisk-packlista",
     "category": "Resa",
     "title": "Praktisk packlista för resor med barn",
     "excerpt": "En realistisk packlista prioriterar sådant som löser problem under resan, inte prylar för varje tänkbar situation.",
-    "readTime": "4 min läsning",
+    "readTime": "8 min läsning",
     "date": "2026-06-14",
     "sections": [
       [
@@ -218,17 +456,67 @@
       [
         "Gör listan återanvändbar",
         "Efter resan ska du skriva ner vad som saknades och vad som aldrig användes. Markera också sådant som behöver fyllas på eller bytas ut. En kort lista per typ av resa blir mer användbar än en lång standardlista. Om barnet packar själv kan du använda bilder eller kategorier och sedan göra en snabb vuxenkontroll av mediciner, dokument och säkerhetsrelaterade saker."
+      ],
+      [
+        "Planera efter övergångar",
+        "Det som behövs på flygplatsen, i bilen eller på tåget är inte samma sak som det som behövs på boendet. Gör tre listor: under resan, första dygnet och resten av vistelsen. Lägg det som kan behövas snabbt överst och gruppera saker i små påsar. Det minskar tiden du måste leta och gör det möjligt att flytta en färdig del mellan väskor. Om ni reser med flera vuxna, bestäm vem som ansvarar för dokument, mediciner och barnets viktigaste saker."
+      ],
+      [
+        "Källan till rådet avgör vad som gäller",
+        "1177 kan ge hälsorelaterad reseinformation, men flygbolag och andra transportörer bestämmer regler för bagage, barnvagn, bilbarnstol och vätskor. Kontrollera därför alltid den aktuella transportörens webbplats och landets krav på dokument eller vaccinationer. En allmän packlista ska inte påstå att en viss sak får tas med eller att ett läkemedel kan ersätta vårdråd. Lägg källan och kontroll-datumet i din egen lista när uppgiften kan ändras."
+      ],
+      [
+        "Packa för spill och förseningar",
+        "Ett extra ombyte hjälper bara om det ligger tillgängligt när något spills. Fördela därför kläder, våtservetter och snacks efter när de används, och ha marginal för förseningar utan att packa för varje tänkbar situation. Kontrollera vad som faktiskt finns på boendet och om det går att tvätta eller köpa förbrukningsvaror. En kort, testad lista är bättre än en lång lista som gör väskan tung och svår att överblicka."
+      ],
+      [
+        "Gör nästa resa bättre",
+        "Efter resan ska du skriva tre saker: vad som saknades, vad som aldrig användes och vad som behöver fyllas på. Markera också om en viss väska, behållare eller rutin fungerade. På så sätt blir packlistan en lokal kunskapsbank i stället för en generisk produktlista. När ett barn packar själv kan bilder eller kategorier hjälpa, men en vuxen behöver kontrollera mediciner, dokument och säkerhetsrelaterade saker."
+      ],
+      [
+        "Gör listan situationsstyrd",
+        "En bra lista skiljer på ett spädbarn, ett barn som äter vanlig mat och ett barn som kan bära en liten egen väska. Den skiljer också på bil, tåg, flyg och boende med eller utan tvättmöjlighet. Använd därför valbara block i stället för en enda lång lista: sömn, måltid, hygien, transport, väder och medicin. Kontrollera varje block mot den aktuella resan och ta bort sådant som bara packas av vana. Det ger lägre vikt och bättre åtkomst utan att låtsas att en generell lista kan ersätta rese- eller vårdinformation."
+      ],
+      [
+        "Undvik att packa regler som fakta",
+        "Flygbolag, länder och boenden kan ändra sina villkor. Länka därför alltid till aktuell information och skriv kontroll-datum, särskilt för dokument, mediciner, vätskor och bilbarnstolar. Packlistan ska hjälpa till att ställa frågor, inte ge ett falskt löfte om vad som är tillåtet."
       ]
     ],
     "author": "Dealsbot-redaktionen",
-    "reviewedDate": "2026-06-14"
+    "reviewedDate": "2026-09-19",
+    "contentType": "research-guide",
+    "editorialMethod": "Källbaserad research. Dealsbot påstår inte egen produkttestning om det inte uttryckligen anges.",
+    "reviewNote": "Guiden granskades 2026-09-19 mot 1177:s råd om resor med små barn och resechecklista. Den är generell planering och ersätter inte vårdråd, transportörens regler eller individuell bedömning.",
+    "keyTakeaways": [
+      "Packa efter resans delar och vad som är svårt att ersätta på plats.",
+      "Ha det viktigaste lättillgängligt under själva transporten.",
+      "Kontrollera transportörens regler, dokumentkrav och medicinrutiner separat.",
+      "Gör listan återanvändbar genom att notera vad som saknades efter varje resa."
+    ],
+    "checklist": [
+      "Dela packningen i transport, boende och aktiviteter.",
+      "Lägg ombyte, dryck, mat och hygienartiklar där de kan nås snabbt.",
+      "Kontrollera resehandlingar, försäkring och eventuella läkemedel.",
+      "Anpassa listan efter väder, restid, boende och tvättmöjlighet.",
+      "Skriv en ändringsnotering efter resan i stället för att packa mer av allt."
+    ],
+    "sources": [
+      {
+        "label": "1177: resa med små barn",
+        "url": "https://www.1177.se/liv--halsa/reserad-och-vaccinationer/allmanna-reserad/resa-med-sma-barn/"
+      },
+      {
+        "label": "1177: checklista inför resan",
+        "url": "https://www.1177.se/Halland/liv--halsa/reserad-och-vaccinationer/allmanna-reserad/checklista-infor-resan"
+      }
+    ]
   },
   {
     "slug": "vad-gor-en-bra-ryggsack",
     "category": "Vardag",
     "title": "Vad gör en bra ryggsäck för pendling?",
     "excerpt": "Laptopfack, bärkomfort och väderskydd är viktigare än många små extrafack.",
-    "readTime": "3 min läsning",
+    "readTime": "8 min läsning",
     "date": "2026-06-07",
     "sections": [
       [
@@ -254,17 +542,71 @@
       [
         "Skydd och underhåll",
         "Vattenavvisande tyg räcker inte alltid vid långvarigt regn. Kontrollera dragkedjor, sömmar, botten och om ett separat regnskydd ingår. Förvara elektronik i ett fodral även när väskan har skydd. Läs skötselråd och kontrollera garanti samt möjligheten att ersätta remmar eller andra delar innan du jämför pris."
+      ],
+      [
+        "Mät din last före väskan",
+        "Börja med det du faktiskt bär: dator, laddare, matlåda, kläder och eventuella tränings- eller cykeltillbehör. Mät datorns höjd, bredd och tjocklek; en etikett som säger “15 tum” beskriver skärmens diagonal och inte hela datorns form. Lägg sakerna på ett bord och tänk på vad som ska vara lätt att nå. En ryggsäck med stort huvudfack kan ändå vara opraktisk om öppningen är smal eller om datorn hamnar mot andra hårda föremål."
+      ],
+      [
+        "Passform är en användningsfråga",
+        "Axelremmar, ryggpanel och bröstrem fungerar olika på olika kroppar och transporter. En cykelpendlare kan prioritera stabilitet och ventilation, medan en kollektivtrafikresenär kan värdera smal profil och enkel åtkomst. Viktfördelning påverkas av var tunga saker ligger, inte bara av stoppningens tjocklek. Om du inte kan prova väskan, kontrollera returvillkor och jämför mått mot en väska du redan tycker fungerar."
+      ],
+      [
+        "Skydd måste beskrivas noggrant",
+        "Vattenavvisande tyg innebär inte automatiskt att dragkedjor och sömmar är täta vid långvarigt regn. Läs om botten, sömmar, stormklaffar och regnskydd, och använd ett separat fodral för elektronik om innehållet är känsligt. Kontrollera också om väskan kan stå utan att falla och om den går att rengöra. Markera varje påstående som tillverkarens uppgift, oberoende observation eller okänt."
+      ],
+      [
+        "Tänk längre än första priset",
+        "Kontrollera garanti, retur och om remmar, spännen eller andra delar kan ersättas. Skötselråd och materialinformation påverkar hur länge väskan kan användas. Om två väskor uppfyller samma krav kan den som går att laga eller använda i fler situationer ge bättre värde, även om inköpspriset är högre. Spara mått, vikt och datum för jämförelsen eftersom modeller kan ändras."
+      ],
+      [
+        "Väg funktion mot bärbarhet",
+        "En större ryggsäck löser kapacitetsproblem men blir själv en del av lasten. Jämför därför tomvikt, mått i kollektivtrafik och hur mycket som krävs för att väskan ska sitta stabilt. Kontrollera om fack och remmar gör det lättare att packa eller bara tillför material. För elektronik bör du skilja på ett vadderat fack och ett dokumenterat stötskydd. Om väskan ska användas på resa, läs transportörens aktuella mått i stället för att anta att en etikett som “kabinväska” är tillräcklig."
+      ],
+      [
+        "Kontrollera påståenden vid köp",
+        "Produktbilder och ord som “ergonomisk”, “vattentät” eller “slitstark” behöver översättas till kontrollfrågor. Vilket test eller vilken standard avses? Vilka delar gäller påståendet? Finns det mått, skötselråd eller garanti som stöd? Om säljaren inte svarar, markera informationen som oklar och välj inte en vinnare på känsla. När du får hem väskan kan du kontrollera sömmar, dragkedjor och fack utan att utsätta den för onödig belastning. Använd returvillkoret om den inte motsvarar de publicerade måtten eller funktionen."
+      ],
+      [
+        "Ta mått från verkligheten",
+        "Jämför mått på ett bord eller i en dörröppning, inte bara mot en produktbild. Notera om ytterfack gör väskan bredare och om remmar kan fastna. Små praktiska skillnader blir ofta viktigare än en extra innerficka när väskan används varje dag."
       ]
     ],
     "author": "Dealsbot-redaktionen",
-    "reviewedDate": "2026-06-07"
+    "reviewedDate": "2026-09-19",
+    "contentType": "research-guide",
+    "editorialMethod": "Källbaserad research. Dealsbot påstår inte egen produkttestning om det inte uttryckligen anges.",
+    "reviewNote": "Guiden granskades 2026-09-19 som en researchbaserad jämförelse av mått, passform, material och användning. Den innehåller inga påståenden om att redaktionen har belastningstestat en viss ryggsäck.",
+    "keyTakeaways": [
+      "Mät dator och vardagslast i stället för att lita på tum- eller literangivelser.",
+      "Bärkomfort beror på passform och viktfördelning, inte bara stoppning.",
+      "Väderskydd och vattentäthet är olika påståenden som måste granskas separat.",
+      "Garanti, retur och möjlighet att byta delar påverkar livslängden."
+    ],
+    "checklist": [
+      "Mät den största enheten och jämför med fackets faktiska mått.",
+      "Skriv ner vikt och volym för den last du bär en vanlig dag.",
+      "Kontrollera botten, sömmar, dragkedjor och eventuellt regnskydd.",
+      "Prova passform eller säkerställ ett rimligt returvillkor.",
+      "Läs skötselråd och kontrollera garanti eller reservdelar."
+    ],
+    "sources": [
+      {
+        "label": "Hallå konsument",
+        "url": "https://www.hallakonsument.se/"
+      },
+      {
+        "label": "Konsumentverket",
+        "url": "https://www.konsumentverket.se/"
+      }
+    ]
   },
   {
     "slug": "kaffebryggare-for-hemmet",
     "category": "Kök",
     "title": "Kaffebryggare för hemmet: välj efter dina vanor",
     "excerpt": "Rätt bryggare handlar om mängd, rengöring och hur mycket kontroll du vill ha – inte bara om effekt.",
-    "readTime": "3 min läsning",
+    "readTime": "8 min läsning",
     "date": "2026-05-30",
     "sections": [
       [
@@ -290,17 +632,67 @@
       [
         "Service och kalk",
         "Kalkavlagringar påverkar underhåll och kan göra att bryggaren fungerar sämre över tid. Läs avkalkningsinstruktioner, kontrollera hur delar tas loss och se om tillverkaren erbjuder reservdelar. Om du jämför tester, skilj på smakbedömning och praktiska egenskaper som temperatur, ljud, dropp från kannan och hur lätt apparaten är att hålla ren."
+      ],
+      [
+        "Kaffet börjar före bryggaren",
+        "En bryggare kan bara göra en begränsad skillnad om vatten, kaffe, filter och dosering varierar kraftigt. Skriv ner hur många koppar du gör, hur länge kannan står och vad som irriterar dig i dag. En mindre kanna kan minska ståtid för en person, medan en större kanna kan vara rimlig för flera personer. Bedöm arbetsflödet från att fylla vatten till att rengöra efteråt, inte bara programtid eller maximal effekt."
+      ],
+      [
+        "Mått och åtkomst är praktiska specifikationer",
+        "Mät höjd under skåp, djup mot vägg och plats för att dra ut filterhållare eller fylla behållaren. Kontrollera om kannan går att ta ur utan att flytta apparaten och om vattennivån syns när bryggaren står på sin plats. En modell som är svår att fylla eller rengöra används på ett annat sätt än du tänkt. Dokumentera måtten tillsammans med filterstorlek och sladdens placering."
+      ],
+      [
+        "Underhåll är en del av kostnaden",
+        "Kalk och kafferester påverkar skötsel och kan göra att apparaten fungerar sämre över tid. Läs hur filterhållare, kanna och lock tas loss, vilken avkalkning tillverkaren rekommenderar och om reservdelar finns. Om delar tål diskmaskin måste du ändå följa tillverkarens instruktioner. Räkna även filter och eventuella rengöringsmedel i jämförelsen; ett lägre inköpspris kan ge mer arbete varje vecka."
+      ],
+      [
+        "Var försiktig med testpåståenden",
+        "Bryggtemperatur, smak och ljud bör jämföras med en tydlig metod och samma kaffe, vatten och mängd. Om en källa bara anger en marknadsförd temperatur ska den inte presenteras som ett oberoende resultat. I en researchguide är det bättre att visa vilka frågor läsaren ska ställa och länka till tillverkarens instruktioner än att rangordna modeller utan mätdata."
+      ],
+      [
+        "Jämför vana, inte bara kaffeprogram",
+        "Extra program har inget värde om du alltid använder samma bryggning. Skriv ner när på dagen bryggaren används, om flera personer tar kaffe vid olika tider och om kannan står på värmeplatta. Fundera på om en termoskanna, mindre mängd eller manuell bryggning passar bättre. Kontrollera också ljud och knappar om apparaten används tidigt. När du läser tester ska du leta efter samma mängd och råvara, annars blir smakomdömen svåra att överföra till ditt hem. En transparent guide bör skilja på användarens preferens och en verifierbar produktegenskap."
+      ],
+      [
+        "Gör en återkommande skötselplan",
+        "Skriv upp vad som ska rengöras efter varje bryggning, varje vecka och vid avkalkning. Kontrollera att planen går att följa med den tid du faktiskt har. En avtagbar del är inte automatiskt lätt att rengöra om den kräver flera steg eller torkar långsamt. Notera också om vattenbehållaren blir stående fylld och hur länge kaffet hålls varmt. Detta är vardagsdata som sällan syns i produktkort men som kan avgöra om bryggaren används i flera år. En guide som visar arbetsflödet ger mer hjälp än en uppräkning av program."
       ]
     ],
     "author": "Dealsbot-redaktionen",
-    "reviewedDate": "2026-05-30"
+    "reviewedDate": "2026-09-19",
+    "contentType": "research-guide",
+    "editorialMethod": "Källbaserad research. Dealsbot påstår inte egen produkttestning om det inte uttryckligen anges.",
+    "reviewNote": "Guiden granskades 2026-09-19 som en researchbaserad köpguide om arbetsflöde, rengöring, mått och underhåll. Den påstår inte egna smaktester eller laboratoriemätningar.",
+    "keyTakeaways": [
+      "Rätt kanna och mängd är viktigare än maximal effekt för många hushåll.",
+      "Rengöring, filter och avkalkning avgör hur lätt bryggaren blir att använda.",
+      "Mät bänkplats, skåphöjd och åtkomst till vatten innan köp.",
+      "Skilj på tillverkarens specifikationer och oberoende tester av smak eller temperatur."
+    ],
+    "checklist": [
+      "Räkna hur många koppar som bryggs och när de dricks.",
+      "Mät plats, locköppning, sladd och avstånd till uttag.",
+      "Kontrollera filterstorlek, reservdelar och rengöringsinstruktioner.",
+      "Jämför kanna, värmehållning och droppfri servering i vardagen.",
+      "Planera avkalkning och rengöring innan du värderar extra program."
+    ],
+    "sources": [
+      {
+        "label": "Livsmedelsverket: dricksvatten",
+        "url": "https://www.livsmedelsverket.se/livsmedel-och-innehall/dricksvatten"
+      },
+      {
+        "label": "Hallå konsument",
+        "url": "https://www.hallakonsument.se/"
+      }
+    ]
   },
   {
     "slug": "barnsakerhet-vid-kop-av-teknik",
     "category": "Familj",
     "title": "Barnsäkerhet vid köp av teknik och prylar",
     "excerpt": "Ålder, smådelar, batterier och laddare bör vägas in innan en produkt hamnar i hemmet.",
-    "readTime": "3 min läsning",
+    "readTime": "8 min läsning",
     "date": "2026-05-22",
     "sections": [
       [
@@ -326,17 +718,71 @@
       [
         "Välj bort onödig komplexitet",
         "Fler funktioner är inte automatiskt bättre för barn. En enkel produkt med tydlig bruksanvisning, stabil konstruktion och bra möjlighet till kontroll kan vara säkrare än en modell med många anslutningar och tillbehör. Spara instruktioner, registrera garanti om det är relevant och kontrollera återkallelser från tillverkaren vid behov."
+      ],
+      [
+        "Bedöm hela situationen",
+        "En produkt kan vara märkt för en viss ålder men ändå vara olämplig på en viss plats eller utan vuxen närvaro. Fråga var den ska användas, om den kan välta, bli varm eller innehålla lösa delar, och om barnet kan nå laddare eller små batterier. Läs varningen i originalet och skriv ner vilken vuxen kontroll som behövs. Det gör beslutet konkret i stället för att låta åldersmärkningen bära hela bedömningen."
+      ],
+      [
+        "Laddning är en egen riskpunkt",
+        "Elsäkerhetsverket varnar för felaktiga laddare, skadade kablar och bristfälliga batterier. Kontrollera att laddaren är avsedd för produkten, att kabeln inte är skadad och att laddning sker på en plats där värme kan avledas. Täck inte över utrustning och låt inte barn hantera laddning utan den uppsikt som tillverkaren kräver. Om produkten blir ovanligt varm, sväller eller luktar ska den tas ur bruk."
+      ],
+      [
+        "Välj bort komplexitet när den inte behövs",
+        "Fler anslutningar, appar och tillbehör innebär fler saker att hålla reda på. Jämför därför också hur konton, uppdateringar, batteribyten och åtkomst fungerar. En enkel produkt med stabil konstruktion och tydlig instruktion kan passa bättre än en modell med fler funktioner som barnet inte behöver. Kontrollera om det går att återställa produkten och ta bort tidigare användares åtkomst innan den lämnas vidare."
+      ],
+      [
+        "Dokumentera säkerhetsbeslutet",
+        "Spara bruksanvisning, modellbeteckning och inköpsdatum. Notera var laddning ska ske, vem som ansvarar för kontroll och vilka delar som måste hållas borta från barn. Kontrollera tillverkarens information om återkallelser om produkten är säkerhetskritisk. En köpguide kan hjälpa till att formulera frågor, men den kan inte ersätta produktens egna varningar eller en professionell bedömning."
+      ],
+      [
+        "Tänk på hela livscykeln",
+        "Säkerheten förändras när produkten flyttas mellan rum, får en annan laddare eller lämnas vidare till ett annat barn. Spara därför tillbehör och instruktioner tillsammans, märk kompatibla laddare och ta bort gamla konton innan återbruk. Kontrollera med jämna mellanrum kabel, batterifack, hölje och smådelar. En produkt som var rimlig vid köp kan behöva tas ur bruk efter slitage eller om tillverkaren slutar ge säkerhetsuppdateringar. En köpguide bör hjälpa familjen att göra den kontrollen även efter själva köpet."
+      ],
+      [
+        "Skilj barnsäkerhet från föräldrakontroll",
+        "En app med begränsningar kan minska vissa digitala risker, men den ersätter inte säker laddning, fysisk placering eller samtal om användning. Läs vilka funktioner som kräver konto, internet eller abonnemang och vad som händer när batteriet är lågt. Undvik att beskriva en kontrollfunktion som en garanti. Skriv i stället vad den kan göra, vad den inte kan göra och vilken vuxen rutin som fortfarande behövs. Det gör informationen praktisk utan att lova mer säkerhet än produkten kan ge."
+      ],
+      [
+        "Använd återkallelser som kontrollpunkt",
+        "Sök efter modellbeteckning och säkerhetsinformation hos tillverkaren före köp och när en produkt tas fram igen efter lång tid. Om du upptäcker en säkerhetsvarning ska produkten inte rekommenderas eller användas utan att instruktionen följts."
       ]
     ],
     "author": "Dealsbot-redaktionen",
-    "reviewedDate": "2026-05-22"
+    "reviewedDate": "2026-09-19",
+    "contentType": "research-guide",
+    "editorialMethod": "Källbaserad research. Dealsbot påstår inte egen produkttestning om det inte uttryckligen anges.",
+    "reviewNote": "Guiden granskades 2026-09-19 mot Elsäkerhetsverkets råd om laddare och laddning under uppsikt. Den är generell information och ersätter inte tillverkarens instruktioner eller professionell säkerhetsbedömning.",
+    "keyTakeaways": [
+      "Åldersmärkning och fysisk åtkomst måste bedömas tillsammans.",
+      "Skadade kablar, felaktiga laddare och batterier kräver extra försiktighet.",
+      "Laddning ska placeras så att värme kan avledas och barn inte kommer åt den.",
+      "En enklare produkt med tydliga instruktioner kan vara säkrare än fler funktioner."
+    ],
+    "checklist": [
+      "Läs varningar, åldersgräns och bruksanvisning före köp.",
+      "Kontrollera batterifack, smådelar, värme och möjlighet att falla.",
+      "Använd rätt laddare och ta skadade kablar ur bruk.",
+      "Planera var laddning sker och vem som har uppsikt.",
+      "Kontrollera återkallelser och spara säkerhetsinformation."
+    ],
+    "sources": [
+      {
+        "label": "Elsäkerhetsverket: laddare",
+        "url": "https://www.elsakerhetsverket.se/privatpersoner/dina-elprodukter/produkter/laddare/"
+      },
+      {
+        "label": "Elsäkerhetsverket: ladda under uppsikt",
+        "url": "https://www.elsakerhetsverket.se/om-oss/press/nyheter/2023/ladda-under-uppsikt/"
+      }
+    ]
   },
   {
     "slug": "sa-jamfor-du-produkter-pa-natet",
     "category": "Köpguide",
     "title": "Så jämför du produkter på nätet på ett smartare sätt",
     "excerpt": "En enkel metod för att skilja relevanta skillnader från marknadsföringsord och snabba impulsköp.",
-    "readTime": "4 min läsning",
+    "readTime": "8 min läsning",
     "date": "2026-05-15",
     "sections": [
       [
@@ -366,9 +812,59 @@
       [
         "Räkna med hela beslutet",
         "Lägg till frakt, tillbehör, förbrukningsvaror, service, returvillkor och tiden det tar att använda produkten. Kontrollera också vem som säljer, hur reklamation hanteras och om priset gäller rätt variant. Den bästa jämförelsen är inte den som har flest siffror, utan den som gör det tydligt varför en modell passar dina behov och vilka kompromisser du accepterar."
+      ],
+      [
+        "Börja med ett beslut, inte en produktlista",
+        "En lista med tio länkar hjälper inte om läsaren inte vet vad som ska avgöras. Skriv först situationen: vem ska använda produkten, hur ofta, i vilken miljö och vilket problem ska den lösa? Om du inte kan beskriva problemet är det för tidigt att jämföra modeller. Därefter väljer du tre krav som måste uppfyllas och några önskemål som får avgöra mellan modeller som redan klarar kraven."
+      ],
+      [
+        "Källor svarar på olika frågor",
+        "Tillverkaren är ofta rätt källa för mått, kompatibilitet, garanti och instruktioner. Ett oberoende test kan vara mer användbart för ljud, komfort, batteritid eller faktisk användning, men bara om metoden redovisas. Kundomdömen kan visa återkommande problem men bör grupperas efter variant och datum. När källor säger olika saker ska uppgiften markeras som osäker eller kontrolleras genom en ny källa; den ska inte tyst väljas till fördel för en affiliateprodukt."
+      ],
+      [
+        "Räkna på hela kostnaden",
+        "Lägg till tillbehör, förbrukningsvaror, service, frakt, retur och tiden det tar att använda eller underhålla produkten. Kontrollera även vem som säljer och hur reklamation hanteras. En modell som är billig vid köp kan bli dyrare om den kräver ett nav, specialkabel eller återkommande förbrukning. Skriv kostnaderna i samma valuta och tidsperiod, annars ser jämförelsen mer exakt ut än den är."
+      ],
+      [
+        "Publicera även det som inte passar",
+        "En trovärdig guide behöver visa när en produkt eller kategori inte är rätt. Beskriv kompromisser, okända uppgifter och vilket annat val som passar bättre i en annan situation. Lägg en “avstå om”-ruta i din egen matris. Det hjälper läsaren att fatta ett beslut även när beslutet blir att inte klicka på en affiliatelänk, vilket är ett starkare tecken på oberoende än att varje text slutar i ett köp."
+      ],
+      [
+        "Använd en beslutslogg",
+        "Skriv datum, variant, pris, källa och vilket krav produkten uppfyllde. Markera dessutom varför andra alternativ valdes bort. När pris eller lagerstatus ändras kan du uppdatera just den raden utan att skriva om hela guiden. Om tillverkaren ändrar en specifikation ska du kunna se vilken text som påverkades. En sådan logg gör underhåll möjligt och visar läsaren varför en rekommendation finns. Om uppgifterna inte längre går att verifiera ska rekommendationen pausas eller skrivas om, även om produkten fortfarande ger en affiliateintäkt."
+      ],
+      [
+        "Visa osäkerhet öppet",
+        "Pris, lager, specifikationer och programstöd kan ändras. En bra jämförelse visar därför när uppgiften senast kontrollerades och om den kommer från en tillverkare, återförsäljare eller oberoende källa. Använd “inte verifierat” när en viktig uppgift saknas. För läsaren är det mer användbart än ett exakt men gammalt påstående. När sidan uppdateras ska datumet återspegla en verklig kontroll och ändringsnotisen förklara vad som faktiskt ändrades. En sådan rutin gör underhåll möjligt och begränsar risken att gamla affiliate-länkar styr beslut."
       ]
     ],
     "author": "Dealsbot-redaktionen",
-    "reviewedDate": "2026-05-15"
+    "reviewedDate": "2026-09-19",
+    "contentType": "research-guide",
+    "editorialMethod": "Källbaserad research. Dealsbot påstår inte egen produkttestning om det inte uttryckligen anges.",
+    "reviewNote": "Guiden granskades 2026-09-19 som en metodguide för researchbaserade produktjämförelser. Den skiljer mellan tillverkaruppgifter, oberoende tester och konsumenträtt och använder inga påhittade testresultat.",
+    "keyTakeaways": [
+      "Definiera behov och måste-krav innan du ser pris eller betyg.",
+      "Jämför samma mått och markera okända uppgifter i stället för att gissa.",
+      "Väg in retur, garanti, tillbehör, service och förbrukning i total kostnad.",
+      "Skriv ner källan och kontroll-datumet när en uppgift kan förändras."
+    ],
+    "checklist": [
+      "Skriv tre måste-krav och tre önskemål.",
+      "Gör en tabell med samma egenskaper för varje modell.",
+      "Ange källa, datum och säkerhetsnivå för varje viktig uppgift.",
+      "Kontrollera säljare, variant, returvillkor och garanti.",
+      "Vänta med köp om en avgörande uppgift inte går att verifiera."
+    ],
+    "sources": [
+      {
+        "label": "Hallå konsument",
+        "url": "https://www.hallakonsument.se/"
+      },
+      {
+        "label": "Konsumentverket",
+        "url": "https://www.konsumentverket.se/"
+      }
+    ]
   }
 ]

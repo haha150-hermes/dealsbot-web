@@ -58,3 +58,14 @@ test('renders the expanded guide content and review metadata', () => {
   expect(screen.getByText(/Av Dealsbot-redaktionen/)).toBeInTheDocument();
   expect(screen.getByRole('heading', { name: 'Så använder vi guiden' })).toBeInTheDocument();
 });
+
+test('renders the non-affiliate buying tools page', () => {
+  window.history.pushState({}, '', '/verktyg');
+
+  render(<App />);
+
+  expect(screen.getByRole('heading', { name: 'Verktyg för smartare köp' })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Powerbankkalkylator' })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Jämförelsemall' })).toBeInTheDocument();
+  expect(screen.getByText(/utan affiliatelänkar/)).toBeInTheDocument();
+});
